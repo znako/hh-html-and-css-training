@@ -1,19 +1,19 @@
 {
-  "name": "html-and-css-p",
-  "version": "1.0.0",
-  "homepage": "https://leonidfeskov.github.io/html-and-css-p/",
-  "repository": "git@github.com:leonidfeskov/html-and-css-p.git",
-  "author": "Leonid Feskov",
-  "license": "MIT",
-  "scripts": {
-    "dev": "parcel *.html",
-    "build": "parcel build *.html --public-url './'",
-    "deploy": "yarn build && gh-pages -d dist"
-  },
-  "devDependencies": {
-    "@parcel/transformer-less": "^2.8.0",
-    "gh-pages": "^3.2.3",
-    "less": "^4.1.3",
-    "parcel": "^2.8.0"
-  }
+    "name": "html-and-css-p",
+    "version": "1.0.0",
+    "homepage": "https://znako.github.io/hh-html-and-css-training",
+    "repository": "git@github.com:znako/hh-html-and-css-training.git",
+    "author": "Leonid Feskov",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel *.html",
+        "build": "parcel build *.html --public-url './'",
+        "deploy": "yarn build && gh-pages -d dist"
+    },
+    "devDependencies": {
+        "@parcel/transformer-less": "^2.8.0",
+        "gh-pages": "^3.2.3",
+        "less": "^4.1.3",
+        "parcel": "^2.8.0"
+    }
 }
