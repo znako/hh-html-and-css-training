@@ -18,6 +18,7 @@
 
     &__item {
         display: flex;
+        align-items: center;
         margin-bottom: 30px;
 
         @media @screen-gt-s {
@@ -29,7 +30,7 @@
         margin-bottom: 0;
     }
 
-    &__item_img {
+    &__img {
         margin-right: 20px;
 
         @media @screen-gt-s {
@@ -37,11 +38,27 @@
         }
 
         @media @screen-gt-m {
+            width: 50px;
+            height: 50px;
             margin-right: 30px;
         }
     }
 
-    &__item_text {
+    &__text {
+        height: 40px;
         width: 211px;
+        line-height: 20px;
+
+        &_support {
+            width: 122px;
+        }
+
+        &_return {
+            width: 160px;
+        }
+
+        &_delivery {
+            width: 119px;
+        }
     }
 }
