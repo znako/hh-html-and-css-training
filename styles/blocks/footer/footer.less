@@ -20,25 +20,11 @@
     margin-bottom: 15px;
 
     @media @screen-gt-s {
-        display: flex;
-        justify-content: space-between;
         margin-bottom: 30px;
     }
 
     @media @screen-gt-m {
         height: 46px;
-    }
-
-    &.columns {
-        display: block;
-
-        @media @screen-gt-s {
-            display: flex;
-        }
-
-        @media @screen-gt-m {
-            display: grid;
-        }
     }
 
     &__logo {
@@ -83,6 +69,19 @@
         color: #999999;
         line-height: 20px;
         margin: 0;
+    }
+}
+
+.columns_links {
+    display: block;
+
+    @media @screen-gt-s {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media @screen-gt-m {
+        display: grid;
     }
 }
 

@@ -10,14 +10,6 @@
 }
 
 .services-list {
-    & > .columns {
-        display: block;
-
-        @media @screen-gt-s {
-            display: grid;
-        }
-    }
-
     &__item {
         display: flex;
         align-items: center;
@@ -64,5 +56,13 @@
                 width: 119px;
             }
         }
+    }
+}
+
+.columns_services {
+    display: block;
+
+    @media @screen-gt-s {
+        display: grid;
     }
 }
